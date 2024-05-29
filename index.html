@@ -1,68 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Building Surfboards</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <h1>Building Your Own Surfboards</h1>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0f7fa; /* Light ocean blue */
+    color: #004d40; /* Dark teal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="#intro">Introduction</a></li>
-            <li><a href="#materials">Materials</a></li>
-            <li><a href="#process">Process</a></li>
-        </ul>
-    </nav>
+header {
+    background-color: #00796b; /* Teal */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
 
-    <!-- Main Content Area -->
-    <main>
-        <!-- Introduction Section -->
-        <section id="intro">
-            <h2>Introduction</h2>
-            <p>Welcome to the world of surfboard building! Creating your own surfboard is a rewarding and exciting experience. In this guide, we will take you through the essential steps and materials needed to craft your very own board.</p>
-            <img src="https://via.placeholder.com/800x400?text=Surfboard+Building" alt="Building a surfboard">
-        </section>
+nav {
+    background-color: #004d40; /* Dark teal */
+    width: 100%;
+}
 
-        <!-- Materials Section -->
-        <section id="materials">
-            <h2>Materials</h2>
-            <p>To build a surfboard, you will need the following materials:</p>
-            <ul>
-                <li>Foam blank</li>
-                <li>Fiberglass cloth</li>
-                <li>Resin and hardener</li>
-                <li>Sandpaper</li>
-                <li>Fin boxes and fins</li>
-                <li>Shaping tools</li>
-            </ul>
-            <img src="https://via.placeholder.com/800x400?text=Surfboard+Materials" alt="Surfboard materials">
-        </section>
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
 
-        <!-- Process Section -->
-        <section id="process">
-            <h2>Process</h2>
-            <p>The process of building a surfboard can be broken down into several key steps:</p>
-            <ol>
-                <li><strong>Shaping:</strong> Start by shaping the foam blank to the desired size and shape of your surfboard.</li>
-                <li><strong>Glassing:</strong> Apply fiberglass cloth and resin to the shaped blank to give it strength and durability.</li>
-                <li><strong>Sanding:</strong> Sand the board to achieve a smooth finish.</li>
-                <li><strong>Finishing:</strong> Install the fin boxes and fins, and apply any final touches to the board.</li>
-            </ol>
-            <img src="https://via.placeholder.com/800x400?text=Surfboard+Process" alt="Surfboard building process">
-        </section>
-    </main>
+nav li {
+    display: inline;
+}
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Building Surfboards</p>
-        <p>Contact: <a href="mailto:info@buildingsurfboards.com">info@buildingsurfboards.com</a></p>
-    </footer>
-</body>
-</html>
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #00796b; /* Teal */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #004d40; /* Dark teal */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
