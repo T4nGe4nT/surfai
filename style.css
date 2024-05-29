@@ -67,7 +67,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: relative; /* Changed from fixed to relative */
     width: 100%;
     bottom: 0;
 }
